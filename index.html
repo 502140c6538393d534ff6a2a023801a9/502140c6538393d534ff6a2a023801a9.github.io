@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>#BoycottMILAN</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+
+	<style>
+		body, .navbar {
+			background-color: #209cee;
+		}
+
+		.navbar .navbar-item {
+			color: #fff;
+		}
+
+		.message-container {
+			padding: 3em 0;
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container">
+			<nav class="navbar">
+				<div class="navbar-item">
+					<span class="icon"><i class="far fa-meh fa-3x"></i></span>&nbsp;&nbsp;&nbsp;<span class="is-size-2 has-text-weight-semibold">#BoycottMILAN</span>
+				</div>
+				<div class="navbar-item">
+					<span id="log" class="has-text-weight-light">fetching data...</span>
+				</div>
+
+			</nav>
+		</div>
+	</nav>
+
+	<div class="container message-container">
+		<div class="columns is-desktop is-multiline" id="messages">
+		</div> <!-- columns -->
+	</div> <!-- container -->
+
+	<footer class="footer">
+		<div class="container">
+			&copy; jobless, inc. wtfpl.
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
